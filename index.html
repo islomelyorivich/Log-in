@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    <div class="row ">
+      <div class="col left">
+        <form >
+          <h1>Login</h1>
+          
+          <div class="email_input">
+            <input  type="email" name="email" id="email" onblur="emailForm()" placeholder="Enter your email">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="sugg_email">
+              
+            </span>
+          </div>
+          <span class="email_mess"></span>
+
+          <div class="password_input">
+            <input type="password" name="password" id="password" onblur="passwordForm()" placeholder="Enter your password">
+            <i class="fa-solid fa-lock"></i>
+            <span class="sugg_password">
+              
+            </span>
+          </div>
+
+          <div class="notice__password">
+            <h4>Forgot password?</h4>
+          </div>
+
+          <div class="btn__wrapper">
+            <button class="btn">Login</button>
+          </div>
+
+          <div class="left__about">
+            <p>Don't have an account? <span>Signup now</span> </p>
+          </div>
+
+        </form>
+      </div>
+
+      <div class="col right">
+        <div class="right__content">
+          <!-- <img src="https://cdn.pixabay.com/photo/2022/06/06/10/55/cat-7245850_960_720.jpg"> -->
+          <div class="right__text-wrapper">
+            <h1>Every new friend is a new adventure. </h1>
+            <p>let's get connected</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
